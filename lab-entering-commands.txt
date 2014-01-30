@@ -1,4 +1,3 @@
-
 Lab - Entering Commands
 ==========
 Follow the instructions line-by-line.  
@@ -17,6 +16,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+Desktop		Downloads	Movies		My Song.band	Public		Things		vms
+Documents	Library		Music		Pictures	Sites		VirtualBox VMs
+ent-v321-011:~ student$ 
 
 
 
@@ -27,19 +29,23 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Nothing happens for the first D
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
+Desktop/   Documents/ Downloads/ 
+ent-v321-011:~ student$ ls D
+
 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
+ent-v321-011:~ student$ 
 
 
 ==========
@@ -49,7 +55,28 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+About Stacks.pdf
+Adobe
+AdobeStockPhotos
+Arduino
+Avid Projects
+Blender Games
+Color Documents
+Eclipse
+Eclipse Workspace
+Final Cut Pro Documents
+Final Cut Scratch
+LEGO Creations
+Max
+Microsoft User Data
+Pro Tools
+Processing
+REAPER Media
+Student Work
+Test
+Version Cue
+Wacom Tablet Tutorial
+ent-v321-011:~ student$ 
 
 
 ==========
@@ -59,6 +86,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+.			.RA5PAB5TCC18I		AdobeStockPhotos	Eclipse			Max			Student Work
+..			.localized		Arduino			Eclipse Workspace	Microsoft User Data	Test
 
 
 
@@ -70,6 +99,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
+-a Documents
 
 
 ==========
@@ -79,7 +109,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -1 Documents
 
 
 ==========
@@ -89,7 +119,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+After pressing Tab, the word automatically completes itself with the word ‘Volumes’.
 
 
 ==========
@@ -99,37 +129,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
+ent-v321-011:~ student$ 
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+UP
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+Documents and /Vol
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+Tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+-a
 
 
 ==========
@@ -139,7 +170,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -159,3 +190,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+
